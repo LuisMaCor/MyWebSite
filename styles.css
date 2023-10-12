@@ -1,0 +1,71 @@
+/* Estilos para el fondo de la página */
+body {
+    background-color: #837a7a; /* Un tono de gris oscuro para el fondo principal */
+    color: #fff; /* Texto en color blanco para resaltar en el fondo oscuro */
+}
+
+/* Estilos para la barra lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #007BFF; /* Color de enlace azul oscuro */
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+header {
+    background-color: #333;
+    color: #007BFF;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los encabezados */
+header {
+    background-color: #444; /* Gris un poco más claro que el fondo principal */
+    color: #007BFF; /* Texto en azul oscuro para resaltar en el encabezado */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para los párrafos y otros elementos de texto */
+p {
+    font-size: 18px;
+    margin: 20px;
+    color: #555; /* Color de texto gris oscuro */
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #007BFF; /* Azul oscuro para el botón */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para las imágenes en la galería de fotos */
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
